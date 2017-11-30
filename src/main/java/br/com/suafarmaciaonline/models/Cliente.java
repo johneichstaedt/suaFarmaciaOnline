@@ -15,7 +15,12 @@ public class Cliente implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
-    
+    private String dataNascimento;
+    private String cpf;
+    private String email;
+    private String telefone;
+    private boolean envioPromocoes;
+        
     public Long getId() {
         return id;
     }
@@ -30,6 +35,46 @@ public class Cliente implements Serializable {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+    
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+    
+    public boolean isEnvioPromocoes() {
+        return envioPromocoes;
+    }
+
+    public void setEnvioPromocoes(boolean envioPromocoes) {
+        this.envioPromocoes = envioPromocoes;
     }
 
     @Override

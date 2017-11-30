@@ -1,0 +1,5 @@
+br/com/suafarmaciaonline/models/Cliente_.class
+br/com/suafarmaciaonline/dao/Dao.class
+br/com/suafarmaciaonline/dao/ApplicationConfig.class
+br/com/suafarmaciaonline/dao/ClientesResource.class
+br/com/suafarmaciaonline/models/Cliente.class
